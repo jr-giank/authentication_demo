@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+.FormLogin{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 30vh;
+    box-shadow: 5px 9px 12px 2px rgba(168,159,159,0.75);
+        -webkit-box-shadow: 5px 9px 12px 2px rgba(168,159,159,0.75);
+        -moz-box-shadow: 5px 9px 12px 2px rgba(168,159,159,0.75);
+    border-radius: 4px;
+}
+
+.FormLogin .Acceder{
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+
+.FormLogin .ContenedoresLogin{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+}
+
+.FormLogin .ContenedoresLogin .InputsLogin{
+    border-bottom: 2;
+    border-color: rgb(179, 176, 176);
+    border: none;
+    border-bottom: 2px solid;
+    padding: 5px 2px 2px 2px;
+    outline: none;
+    width: 60%;
+    color: rgba(0, 0, 0, 0.774);
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.FormLogin .buttonLogin{
+    background-color: rgba(0, 128, 0, 0.336);
+    color: white;
+    padding: 5px 4px 5px 4px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.FormLogin .buttonLogin:hover{
+    transform: scale(1.05);
+}
+
+.FormLogin .ErrorsLogin{
+    color: red;
+}
